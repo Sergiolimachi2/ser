@@ -1,0 +1,24 @@
+git init
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/xkris6x/proyecto-ecomerce.git
+git push -u origin master
+
+
+
+
+
+Instalar mediante composer jetstrem
+composer require laravel/jetstream
+instalar al proyecto 
+php artisan jetstream:install livewire
+
+instalar npm mediante npm
+npm install
+npm run dev
+
+Tiene que estar configurado el archivo .env la base de datos
+php artisan migrate
+
+Corre el proyecto
+php artisan serve
